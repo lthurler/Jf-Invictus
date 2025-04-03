@@ -267,7 +267,7 @@ header {
     gap: 1rem;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     padding: 3rem;
-    border-radius: 40px;
+    border-radius: 50px;
 }
 
 #title-container {
@@ -302,9 +302,9 @@ header {
     text-align: left;
 }
 
-/* #rjsp {
+#rjsp {
     padding-bottom: .5rem;
-} */
+} 
 
 #servicos, #sobre, #contato  {
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(104, 48, 133, 1) 100%);
