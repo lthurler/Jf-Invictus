@@ -488,6 +488,12 @@ header {
     color: #92429F;
     font-size: 1.5rem;
     font-weight: bold;
+    font-family: "SUSE", sans-serif;
+}
+
+#invictus-txt p {
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
 }
 
 .card {
