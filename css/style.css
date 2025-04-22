@@ -85,7 +85,7 @@ ul {
     display: flex;
     flex-direction: column;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-            center / cover no-repeat url("../img/invictos2.jpg");
+            center / cover no-repeat url("../img/legal-5211993_1280.jpg");
     background-attachment: fixed;
     width: 100%;
     height: 100vh;
@@ -97,7 +97,7 @@ ul {
 header {
     width: 100%;    
     height: 15vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); */
 }
 
 #header-container {
@@ -108,10 +108,17 @@ header {
     height: 100%;    
 }
 
+#header-nav {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    padding: 1.5rem;
+    border-radius: 50px;
+    width: 100%;
+}
+
 #header-nav ul {
     display: flex;    
     align-items: center;
-    gap: 3rem;    
+    gap: 3rem;        
 }
 
 #header-nav ul li a {
@@ -166,26 +173,31 @@ header {
     top: 0;
 }
 
-.jf-container {
-    display: flex;    
+#header-logo {
+    display: inline-flex;    
     align-items: center;
-    /* justify-content: center;      */
+    gap: 8px;   
 }
 
-.jf-container img{
-    width: 17%;
+#header-logo img {
+    height: 70px;
+    object-fit: contain;
+    aspect-ratio: 1 / 1;
+    margin-right: -8px;   
 }
 
 #header-logo-text {
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
-    color: #ffff;
+    color: #FFD700;
 }
 
 .btn-tel:hover {
-    background-color: #ffff;
+    background-color: #FFD700;
+    border: 1px solid #FFD700;
     color: #92429F;
+    font-weight: 700;
 }
 
 .btn-tel {
@@ -264,13 +276,23 @@ header {
     /* padding-top: 1rem;     */
 }
 
+#main-box {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    padding: 3rem;
+    border-radius: 50px;
+}
+
 #main-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-    padding: 1rem 2rem 1.5rem 2rem;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); */
+    /* padding: 1rem 2rem 1.5rem 2rem; */
     border-radius: 20px;
 }
 
@@ -283,13 +305,11 @@ header {
 }
 
 #main-text h1 {
-    color: #8F5BA3;
-    font-size: 1.7rem;
-}
-
-#main-text h2 {
-    color: #8F5BA3;
-    font-weight: bold;
+    color: #FFD700;
+    font-family: 'SUSE';
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-align: start;
 }
 
 #main-text p {
@@ -299,7 +319,10 @@ header {
 }
 
 #main-apresentacao {
+    display: flex;
+    flex-direction: column;
     width: 500px;
+    gap: 1rem;
 }
 
 #main-apresentacao p {
@@ -308,7 +331,40 @@ header {
 
 #rjsp {
     padding-bottom: .5rem;
-} 
+    color: #FFD700;
+}
+
+#main-link {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);    
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 100%;
+}
+
+#main-link div {
+    border: 1px solid #92429F;
+    border-radius: 20px;
+    padding: 4.5rem 1rem;
+    text-align: center;
+    transition: all .3s ease-in-out;
+}
+
+#main-link div:hover {
+    /* border: 1px solid #92429F; */
+    background-color: #92429F;
+    cursor: pointer;    
+}
+
+#main-link div h2 {
+    font-size: 1.2rem;
+    color: #ffff;    
+}
+
+#main-link div:hover h2 {
+    color: #ffff;
+}
 
 #servicos, #sobre, #contato  {
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(104, 48, 133, 1) 100%);
