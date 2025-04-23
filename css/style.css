@@ -66,7 +66,8 @@ h2 {
 
 a {
     text-decoration: none;
-    color: #a845b8;
+    /* color: #a845b8; */
+    color: #FFD700;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
@@ -85,7 +86,7 @@ ul {
     display: flex;
     flex-direction: column;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-            center / cover no-repeat url("../img/legal-5211993_1280.jpg");
+            center / cover no-repeat url("../img/pexels-pavel-danilyuk-8112201.jpg");
     background-attachment: fixed;
     width: 100%;
     height: 100vh;
@@ -105,12 +106,14 @@ header {
     justify-content: space-around;    
     align-items: center;
     width: 100%;
-    height: 100%;    
+    height: 80%;
+    border-radius: 0px 0px 50px 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 
 #header-nav {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-    padding: 1.5rem;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+    padding: 1rem 1.5rem;
     border-radius: 50px;
     width: 100%;
 }
@@ -122,9 +125,9 @@ header {
 }
 
 #header-nav ul li a {
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 600;
-    transition: all .6s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 .nav__menu {
@@ -193,22 +196,39 @@ header {
     color: #FFD700;
 }
 
-.btn-tel:hover {
-    background-color: #FFD700;
+/* .btn-tel:hover {
+    background-color: #92429F;
+    background: none; 
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)); 
     border: 1px solid #FFD700;
-    color: #92429F;
+    color: #ffff;
     font-weight: 700;
+} */
+
+.tel-btn {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    color: #FFD700;
+    border: none;    
+    /* background-color: #92429F; */
+    background-color: transparent;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+    border-radius: 50px;
+    /* border: 1px solid #92429F; */
+    cursor: pointer;
+    /* transition: all .5s ease-in-out; */
+    /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
-.btn-tel {
-    padding: .7rem;
-    color: #ffff;
-    background-color: #92429F;
-    border-radius: 20px;
-    border: 1px solid #92429F;
-    cursor: pointer;
-    transition: all .5s ease-in-out;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.tel-btn a {
+    font-size: .9rem;
+    font-weight: 600;
+    transition: all .4s ease-in-out;
+}
+
+#header-telefone {
+    background-color: transparent;
 }
 
 #button {    
@@ -278,11 +298,11 @@ header {
 
 #main-box {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-    padding: 3rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    padding: 2rem;
     border-radius: 50px;
 }
 
@@ -314,7 +334,7 @@ header {
 }
 
 #main-text p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
     text-align: center;
 }
@@ -322,17 +342,20 @@ header {
 #main-apresentacao {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 670px;
     gap: 1rem;
 }
 
 #main-apresentacao p {
+    font-size: 1rem;
+    font-weight: 500;
     text-align: left;
 }
 
 #rjsp {
     padding-bottom: .5rem;
     color: #FFD700;
+    font-size: 1.5rem;
 }
 
 #main-link {
@@ -347,20 +370,20 @@ header {
 #main-link div {
     border: 1px solid #92429F;
     border-radius: 20px;
-    padding: 4.5rem 1rem;
+    padding: 2.5rem 1rem;
     text-align: center;
-    transition: all .3s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 #main-link div:hover {
-    /* border: 1px solid #92429F; */
+    border: 1px solid #FFD700;
     background-color: #92429F;
     cursor: pointer;    
 }
 
 #main-link div h2 {
-    font-size: 1.2rem;
-    color: #ffff;    
+    font-size: 1rem;
+    color: #FFD700;    
 }
 
 #main-link div:hover h2 {
