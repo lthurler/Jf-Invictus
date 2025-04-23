@@ -272,6 +272,30 @@ header {
     white-space: nowrap;
 }
 
+.email {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;     */
+    padding: 0 1rem;
+    color: #FFD700;
+    border: 1px solid #92429F;
+    border-radius: 50px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.email:hover {
+    border: 1px solid #FFD700;
+    background-color: #92429F;
+    color: #ffff;
+}
+
+.email span {
+    font-size: 1rem;
+}
+
 #home {
     height: 85vh;
     color: #ffff;    
@@ -404,14 +428,6 @@ header {
     width: 100%;     
 }
 
-.active {
-    display: flex;
-}
-
-.mais {
-    display: none;
-}
-
 .wifi-servico {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -433,7 +449,7 @@ header {
 }
 
 .servico-txt h2 {
-    color: #b152c0;
+    color: #FFD700;
 }
 
 .servico-txt p {
@@ -453,6 +469,12 @@ header {
     gap: 1rem;
 }
 
+.servico_topico span {
+    border: none;
+    font-size: 1rem;
+    color: #FFD700;
+}
+
 .servico_topico h3 {
     font-family: "SUSE", sans-serif;
     font-optical-sizing: auto;
@@ -470,13 +492,26 @@ header {
     font-size: 1rem;     
 }
 
-#mesh-img {
-    background: center / cover no-repeat url("../img/real-estate-3337032_1280.jpg");
+.links-contato {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.links-contato span {
+    border: none;
+    font-size: 1rem;
+}
+#legalizacao-img {
+    background: center / cover no-repeat url("../img/man-5806013_1280.jpg");
     border-radius: 10px;        
 }
 
-#externo-img {
-    background: center / cover no-repeat url("../img/consultoria.png");
+#rgi-img {
+    background: center / cover no-repeat url("../img/man-5806013_1280.jpg");
     border-radius: 10px;
 }
 
@@ -1113,17 +1148,17 @@ footer {
         font-size: 1rem;
     }
     
-    #mesh-img {
+    #legalizacao-img {
         background-size: contain;
         height: 270px;
         display: block;
     }
 
-    #externo-txt {
+    #rgi-txt {
         order: 1;
     }
 
-    #externo-img {
+    #rgi-img {
         order: 2;
         height: 270px;
     }
