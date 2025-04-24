@@ -515,8 +515,23 @@ header {
     border-radius: 10px;
 }
 
-#ap-img {
-    background: center / cover no-repeat url("../img/legal-5211993_1280.jpg");
+#certidao-img {
+    background: center / cover no-repeat url("../img/Certidoes-necessarias-para-compra-e-venda-de-imoveis.webp");
+    border-radius: 10px;
+}
+
+#obra-img {
+    background: center / cover no-repeat url("../img/obras2.jpg");
+    border-radius: 10px;
+}
+
+#habite-img {
+    background: center / cover no-repeat url("../img/habite-se.webp");
+    border-radius: 10px;
+}
+
+#imposto-img {
+    background: center / cover no-repeat url("../img/impostos.jpg");
     border-radius: 10px;
 }
 
@@ -586,9 +601,9 @@ header {
 }
 
 #invictos-img {    
-    background: center / contain no-repeat url("../img/entrevista.webp");
-    width: 600px;
-    height: 400px;
+    background: center / cover no-repeat url("../img/fernando\ marques1.jpg");
+    width: 400px;
+    height: 400px;     
     border-radius: 10px;
 }
 
@@ -601,7 +616,7 @@ header {
 }
 
 #invictus-txt h2 {
-    color: #92429F;
+    color: #FFD700;
     font-size: 1.5rem;
     font-weight: bold;
     font-family: "SUSE", sans-serif;
@@ -1163,7 +1178,15 @@ footer {
         height: 270px;
     }
 
-    #ap-img {
+    #certidao-img {
+        height: 270px;
+    }
+
+    #obra-img {
+        height: 270px;
+    }
+
+    #habite-img {
         height: 270px;
     }
 
