@@ -96,7 +96,7 @@ contactForm.addEventListener('submit', sendEmail)
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 const sr = ScrollReveal ({
     origin: 'top',
-    distance: '60px',
+    distance: window.innerWidth <= 768 ? '20px' : '60px',
     duration: 2500,
     delay:400,
     //reset:true /* Animations repeat */
@@ -104,9 +104,9 @@ const sr = ScrollReveal ({
 
 sr.reveal(`#main-box`, { opacity: 0 })
 sr.reveal(`.contact__content`)
-sr.reveal(`#sobre-container,#social-container, #cabo-card, #legalizacao, #rgi, #certidao, #imposto, #habite, #obra, #footer-map,`, {delay: 600, origin:'bottom', interval: 500})
+sr.reveal(`#sobre-container,#social-container, #cabo-card, #legalizacao, #rgi, #certidao, #imposto, #habite, #obra`, {delay: 600, origin:'bottom', interval: 500})
 sr.reveal(`#main-text, #footer-logo img, #footer-content, #invictos-img`, {origin:'left'})
-sr.reveal(`#main-img, #footer-menu, #main-link, #invictus-txt`, {origin:'right'})
+sr.reveal(`#main-img, #footer-menu, #main-link, #invictus-txt, #footer-map`, {origin:'right'})
 sr.reveal(`.qualification__content, .services__card`, { interval: 100 })
 
 // , #legalizacao-txt, #rgi-img, #certidao-txt , #legalizacao-img, #rgi-txt, #certidao-img #copyright,
