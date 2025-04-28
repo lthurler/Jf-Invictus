@@ -698,150 +698,153 @@
                 </article>
             </article>
         </section>
+        <div class="wrapper">
+            <section id="contato">
+                <article id="contato-container">
 
-        <section id="contato">
-            <article id="contato-container">
+                    <div class="contact__content">
+                        <h2 class="contact__title">
+                            <i class="ri-send-plane-line"></i> Contato por Email
+                        </h2>
 
-                <div class="contact__content">
-                    <h2 class="contact__title">
-                        <i class="ri-send-plane-line"></i> Contato por Email
-                    </h2>
+                        <form action="" class="contact__form" id="contact-form">
+                            <div class="contact__form-div">
+                                <label class="contact__form-tag">Nome</label>
+                                <input type="text" name="user_name" required placeholder="Escreva seu nome"
+                                    class="contact__form-input" id="contact-name">
+                            </div>
 
-                    <form action="" class="contact__form" id="contact-form">
-                        <div class="contact__form-div">
-                            <label class="contact__form-tag">Nome</label>
-                            <input type="text" name="user_name" required placeholder="Escreva seu nome"
-                                class="contact__form-input" id="contact-name">
-                        </div>
+                            <div class="contact__form-div">
+                                <label class="contact__form-tag">Email</label>
+                                <input type="email" name="user_email" required placeholder="Escreva seu Email"
+                                    class="contact__form-input" id="contact-email">
+                            </div>
 
-                        <div class="contact__form-div">
-                            <label class="contact__form-tag">Email</label>
-                            <input type="email" name="user_email" required placeholder="Escreva seu Email"
-                                class="contact__form-input" id="contact-email">
-                        </div>
+                            <div class="contact__form-div contact__form-area">
+                                <label class="contact__form-tag">Conteúdo</label>
+                                <textarea name="user_project" placeholder="Descreva o que precisa" id="contact-project"
+                                    class="contact__form-input"></textarea>
+                            </div>
 
-                        <div class="contact__form-div contact__form-area">
-                            <label class="contact__form-tag">Conteúdo</label>
-                            <textarea name="user_project" placeholder="Descreva o que precisa" id="contact-project"
-                                class="contact__form-input"></textarea>
-                        </div>
+                            <p class="contact__message" id="contact-message">.</p>
 
-                        <p class="contact__message" id="contact-message">.</p>
-
-                        <button type="submit" class="contact__button">
-                            Enviar <i class="ri-arrow-right-up-line"></i>
-                        </button>
-                    </form>
-                </div>
-            </article>
-        </section>
+                            <button type="submit" class="contact__button">
+                                Enviar <i class="ri-arrow-right-up-line"></i>
+                            </button>
+                        </form>
+                    </div>
+                </article>
+            </section>
+        </div>
     </main>
 
     <footer>
-        <div id="footer-logo">
-            <div class="jf-container">
-                <img id="footer-logo-img" src="./img/logo invictos - transparente.webp" alt="logo jfinvictos">
-                <span id="footer-logo-text">JF INVICTOS</span>
-            </div>
-            <div id="footer-menu">
-                <nav id="footer-nav">
-                    <ul>
-                        <li><a href="#" name="inicio">Inicio</a></li>
-                        <li><a href="#servicos" name="web">servicos</a></li>
-                        <li><a href="#sobre" name="camera">sobre</a></li>
-                        <li><a href="#contato" name="redes">contato</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-
-        <div id="footer-container">
-            <div id="footer-content">
-
-                <!-- <div id="footer-endereco">
-                    <p>R. Maici - Tauá</p>
-                    <p>ilha do governador, RJ</p>
-                </div> -->
-
-                <!-- <div id="footer-telefone">
-                    <a href="tel:+5521995574107">
-                        <button id="footer-button" class="btn-tel">
-                            <div class="bt-text">
-                                <i class="ri-phone-line"></i>
-                                <span>(21) 99557-4107</span>
-                            </div>
-                        </button>
-                    </a>
-                </div> -->
-
-                <div id="footer-telefone" class="tel-btn">
-                    <!-- <a href="tel:+5521995574107">
-                                        <button id="header-button" class="btn-tel">
-                                            <div class="bt-text">
-                                                <i class="ri-phone-line"></i>
-                                                <span>(21) 99557-4107</span>
-                                            </div>
-                                        </button>
-                                    </a> -->
-                
-                    <a href="tel:+5521995574107">
-                        <div class="footer-tel">
-                            <i class="ri-phone-line"></i>
-                            <span class="">(21) 99557-4107</span>
-                        </div>
-                    </a>
-                
-                    <a href="tel:+5511915580348">
-                        <div class="footer-tel">
-                            <i class="ri-phone-line"></i>
-                            <span class="">(11) 91558-0348</span>
-                        </div>
-                    </a>
-                
+        <div class="wrapper">
+                <div id="footer-logo">
+                <div class="jf-container">
+                    <img id="footer-logo-img" src="./img/logo invictos - transparente.webp" alt="logo jfinvictos">
+                    <span id="footer-logo-text">JF INVICTOS</span>
                 </div>
-
-                <div id="footer-social">
-                    <nav id="social-link">                        
-
-                        <a href="https://www.instagram.com/ronin.sistemas/" target="_blank"
-                            aria-label="Siga-nos no Instagram">
-                            <i class="ri-instagram-line"></i>
-                        </a>
-
-                        <!-- <a href="https://www.linkedin.com/in/leandro-thurler/" target="_blank"
-                            aria-label="Conecte-se conosco no LinkedIn">
-                            <i class="ri-linkedin-box-line"></i>
-                        </a> -->
-
-                        <a href="https://api.whatsapp.com/send?phone=5521995574107&text=JF Invictos, te vi no google,preciso da ajuda de vocês"
-                            target="_blank" aria-label="Envie-nos uma mensagem no WhatsApp">
-                            <i class="ri-whatsapp-line"></i>
-                        </a>
+                <div id="footer-menu">
+                    <nav id="footer-nav">
+                        <ul>
+                            <li><a href="#" name="inicio">Inicio</a></li>
+                            <li><a href="#servicos" name="web">servicos</a></li>
+                            <li><a href="#sobre" name="camera">sobre</a></li>
+                            <li><a href="#contato" name="redes">contato</a></li>
+                        </ul>
                     </nav>
                 </div>
+            </div>
 
-                <a href="mailto:contato@roninsistemas.com.br">
-                    <div id="footer-email" class="email">
-                        <span>contato@jfinvictos.com.br</span>
+            <div id="footer-container">
+                <div id="footer-content">
+
+                    <!-- <div id="footer-endereco">
+                        <p>R. Maici - Tauá</p>
+                        <p>ilha do governador, RJ</p>
+                    </div> -->
+
+                    <!-- <div id="footer-telefone">
+                        <a href="tel:+5521995574107">
+                            <button id="footer-button" class="btn-tel">
+                                <div class="bt-text">
+                                    <i class="ri-phone-line"></i>
+                                    <span>(21) 99557-4107</span>
+                                </div>
+                            </button>
+                        </a>
+                    </div> -->
+
+                    <div id="footer-telefone" class="tel-btn">
+                        <!-- <a href="tel:+5521995574107">
+                                            <button id="header-button" class="btn-tel">
+                                                <div class="bt-text">
+                                                    <i class="ri-phone-line"></i>
+                                                    <span>(21) 99557-4107</span>
+                                                </div>
+                                            </button>
+                                        </a> -->
+                    
+                        <a href="tel:+5521995574107">
+                            <div class="footer-tel">
+                                <i class="ri-phone-line"></i>
+                                <span class="">(21) 99557-4107</span>
+                            </div>
+                        </a>
+                    
+                        <a href="tel:+5511915580348">
+                            <div class="footer-tel">
+                                <i class="ri-phone-line"></i>
+                                <span class="">(11) 91558-0348</span>
+                            </div>
+                        </a>
+                    
                     </div>
-                </a>
 
+                    <div id="footer-social">
+                        <nav id="social-link">                        
+
+                            <a href="https://www.instagram.com/ronin.sistemas/" target="_blank"
+                                aria-label="Siga-nos no Instagram">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+
+                            <!-- <a href="https://www.linkedin.com/in/leandro-thurler/" target="_blank"
+                                aria-label="Conecte-se conosco no LinkedIn">
+                                <i class="ri-linkedin-box-line"></i>
+                            </a> -->
+
+                            <a href="https://api.whatsapp.com/send?phone=5521995574107&text=JF Invictos, te vi no google,preciso da ajuda de vocês"
+                                target="_blank" aria-label="Envie-nos uma mensagem no WhatsApp">
+                                <i class="ri-whatsapp-line"></i>
+                            </a>
+                        </nav>
+                    </div>
+
+                    <a href="mailto:contato@roninsistemas.com.br">
+                        <div id="footer-email" class="email">
+                            <span>contato@jfinvictos.com.br</span>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div id="footer-map">
+                    <!-- <iframe title="googleMaps"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1839.045054924821!2d-43.202219261172125!3d-22.799124722185603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9977892577cbbb%3A0xaf3f675cd06c29b7!2sRonin%20Sistemas!5e0!3m2!1spt-BR!2sbr!4v1727113870577!5m2!1spt-BR!2sbr"
+                        width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe> -->
+                    <iframe width="600" height="450" style="border:0" load="Lazy" allowfullscreen
+                        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJS9yuEJR3mQARpZA3BwEyJ-g&key=AIzaSyDYRi8gBFxtDnqdseX_21IIrZ-k4FwY4E0">
+                        </iframe>
+                </div>
             </div>
 
-            <div id="footer-map">
-                <!-- <iframe title="googleMaps"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1839.045054924821!2d-43.202219261172125!3d-22.799124722185603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9977892577cbbb%3A0xaf3f675cd06c29b7!2sRonin%20Sistemas!5e0!3m2!1spt-BR!2sbr!4v1727113870577!5m2!1spt-BR!2sbr"
-                    width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe> -->
-                <iframe width="600" height="450" style="border:0" load="Lazy" allowfullscreen
-                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJS9yuEJR3mQARpZA3BwEyJ-g&key=AIzaSyDYRi8gBFxtDnqdseX_21IIrZ-k4FwY4E0">
-                    </iframe>
+            <div id="copyright">
+                <p>Ronin Sistemas ©2025 - Todos os direitos reservados</p>
             </div>
-        </div>
-
-        <div id="copyright">
-            <p>Ronin Sistemas ©2025 - Todos os direitos reservados</p>
         </div>
     </footer>
 
