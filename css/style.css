@@ -521,7 +521,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .links-contato span {
@@ -1239,10 +1239,12 @@ footer {
         padding: 0;
         margin: 0;
         height: 10vh;
+        /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
     }
 
     #home {
-        height: 90vh;
+        height: 90h;
+        padding-bottom: 1.5rem;
     }
     
     #header-container {
@@ -1276,6 +1278,8 @@ footer {
         align-items: center;
         /* width: 98vw; */
         width: 100%;
+        border-radius: 50px;
+        padding: 1rem 1.5rem;
     }
 
     #main-text {
@@ -1303,7 +1307,17 @@ footer {
         font-size: 1rem;
         font-weight: 500;
         text-align: left;
-    }    
+    }
+    
+    .links-contato {
+        padding: 0;
+        padding-bottom: 1rem;
+        gap: 1.5rem;
+    }
+    
+    .email span {
+        font-size: .9rem;
+    }
 
     #main-link a {        
         padding: 0;
@@ -1311,7 +1325,7 @@ footer {
 
     #main-link {        
         grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
+        gap: 1.5rem;
         width: 100%;
     }
 
@@ -1383,77 +1397,31 @@ footer {
     }
     
     #legalizacao-img {
-        background-size: contain;
-        height: 270px;
+        background-size: contain;        
         display: block;
     }
 
-    #rgi-txt {
-        order: 1;
+    #rgi-txt, #obra-txt, #imposto-txt {
+        order: 1;        
     }
 
-    #rgi-img {
-        order: 2;
+    .servico p:last-child {
+        padding-bottom: 1rem;
+    }
+
+    #rgi-img, #obra-img , #imposto-img{
+        order: 2;        
+    }
+
+    #certidao-img, #habite-img, #rgi-img, #legalizacao-img, #obra-img, #imposto-img {
         height: 270px;
     }
 
-    #certidao-img {
-        height: 270px;
-    }
-
-    #obra-img {
-        height: 270px;
-    }
-
-    #habite-img {
-        height: 270px;
-    }
-
-        #servicos,
-        #sobre,
-        #contato {
-            padding-top: 1rem;
-        }
-
-    /* #cabo-card {
-        display: flex;
-        flex-direction: column;        
-        gap: 3rem;        
-    }
-
-    #cabo-container {
-        padding: 1rem;
-        padding-bottom: 2rem;
-    }
-
-    #cabo-txt {
-        order: 2;
-    }
-
-    #cabo-txt p {
-        font-size: 1rem;
-    }
-
-    #cabo-img {
-        order: 1;
-        height: 270px;
-    }
-
-    .card {       
-        gap: .5rem;
-        width: 150px;
-        height: 150px;       
-        display: flex;
-        padding: 3rem 1rem;        
-    }
-
-    .card p {
-        display: none;
-    }
-
-    .card:hover {
-        transform: none;
-    } */
+    #servicos,
+    #sobre,
+    #contato {
+        padding-top: 2rem;
+    }    
 
     #sobre h2 {
         padding-top: 1rem;
