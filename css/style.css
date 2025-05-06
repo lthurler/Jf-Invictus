@@ -1151,6 +1151,14 @@ footer {
     #social-link a i {
         font-size: 1.5rem;
     }
+
+    #rjsp {
+        padding: 0;
+    }
+
+    .links-contato {               
+        gap: 1.5rem;
+    }
     
     .jf-container {
         gap: 10px;
