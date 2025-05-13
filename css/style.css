@@ -379,7 +379,7 @@ header {
     font-family: 'SUSE';
     font-weight: 900;
     font-size: clamp(.8rem, 2vw, 1.7rem);
-    text-align: start;
+    text-align: center;
 }
 
 #main-text p {
