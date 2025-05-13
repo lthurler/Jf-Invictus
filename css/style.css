@@ -378,12 +378,12 @@ header {
     color: #FFD700;
     font-family: 'SUSE';
     font-weight: 900;
-    font-size: clamp(.8rem, 2vw, 1.7rem);
+    font-size: clamp(1rem, 2vw, 1.8rem);
     text-align: center;
 }
 
 #main-text p {
-    font-size: clamp(.8rem, 1.5vw, 1.5rem);
+    font-size: clamp(.9rem, 1.8vw, 1.6rem);
     font-weight: 500;
     text-align: center;
 }
@@ -396,7 +396,7 @@ header {
 }
 
 #main-apresentacao p {
-    font-size: clamp(.8rem, 1.2vw, 1.1rem);
+    font-size: clamp(.9rem, 1.6vw, 1.2rem);
     font-weight: 500;
     text-align: left;
 }
