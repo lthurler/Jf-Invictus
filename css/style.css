@@ -378,13 +378,14 @@ header {
     color: #FFD700;
     font-family: 'SUSE';
     font-weight: 900;
-    font-size: clamp(1rem, 2vw, 1.8rem);
+    font-size: clamp(1rem, 2vw, 1.8rem);    
     text-align: center;
 }
 
 #main-text p {
-    font-size: clamp(.9rem, 1.8vw, 1.6rem);
-    font-weight: 500;
+    /* font-size: clamp(.9rem, 1.8vw, 1.6rem); */
+    font-size: 1.2rem;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -396,7 +397,8 @@ header {
 }
 
 #main-apresentacao p {
-    font-size: clamp(.9rem, 1.6vw, 1.2rem);
+    /* font-size: clamp(.9rem, 1.6vw, 1.2rem); */
+    font-size: 1.1rem;
     font-weight: 500;
     text-align: left;
 }
@@ -604,10 +606,17 @@ header {
     font-size: 1.3rem;
     font-weight: bold;
     font-family: "SUSE", sans-serif;
-} 
+}
+
+#invictus-txt p {
+    font-size: 1rem;
+    font-family: 'poppins', sans-serif;
+    color: #ffff;
+}
 
 #invictus-txt p span {    
     font-size: 1rem;
+    font-family: 'poppins', sans-serif;
     color: #FFD700;
 }
 
@@ -701,7 +710,7 @@ header {
     justify-content: center;
     align-items: center;
     background: linear-gradient(180deg, rgba(104, 48, 133, 1) 0%, rgba(0, 0, 0, 1) 100%);
-    padding-bottom: 3rem;
+    padding: 6rem 0 3rem 0;
 }
 
 #contato h2 {
@@ -943,7 +952,7 @@ footer {
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(104, 48, 133, 1) 100%);
     color: #ffff;
     font-family: "Poppins", sans-serif;
-    font-size: .9rem;
+    font-size: 1rem;
     padding-top: 2rem;
     max-width: 100vw;
     overflow-x: hidden;
@@ -1016,7 +1025,7 @@ footer {
 }
 
 .footer-tel {
-    font-size: .8rem;
+    font-size: .9rem;
     color: #ffff;
     transition: all .4s ease-in-out;
 }
@@ -1049,7 +1058,7 @@ footer {
     color: #FFD700;
     border: none;
     transition: all .4s ease-in-out;
-    font-size: .97rem;
+    font-size: 1rem;
 }
 
 #social-link a i:hover {
@@ -1149,7 +1158,7 @@ footer {
     } */
 
     #social-link a i {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     #rjsp {
@@ -1272,6 +1281,21 @@ footer {
         /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
     }
 
+    /* #header-logo {
+        gap: 2px;
+    } */
+
+    #header-img {
+        width: 50%;
+        height: 100%;        
+    }
+
+    #header-logo-text {
+        width: 100%;
+        height: 100%;
+        font-size: .89rem;
+    }
+
     /* #home {
         height: 90vh;        
     } */
@@ -1293,7 +1317,7 @@ footer {
     .nav__toggle {
         display: inline;
         color: #92429F;
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     #header-telefone {
@@ -1326,6 +1350,11 @@ footer {
         text-align: center;                
     }
 
+    #title-container h1 {
+        font-size: 1.3rem;
+        font-weight: 900;
+    }
+
     /* #main-apresentacao {
         display: flex;
         flex-direction: column;
@@ -1340,9 +1369,14 @@ footer {
     }
 
     #main-apresentacao p {
-        font-size: clamp(0.7rem, 3vw, 1.1rem);
+        /* font-size: clamp(0.7rem, 2vw, 1.1rem); */
+        font-size: 1.2rem;
         font-weight: 400;
         text-align: left;
+    }
+
+    #rjsp {
+        font-weight: 600;
     }
     
     .links-contato {
@@ -1395,19 +1429,19 @@ footer {
         padding: 0;
     }
 
-    #main-p {
+    /* #main-p {
         font-size: 1rem;
         gap: 1.5rem;
         font-weight: 500;
         text-align: center;
-    }
+    } */
 
     #main-text p span {
         font-size: 1rem;
     }
 
     #main-text p {
-        font-size: .8rem;
+        font-size: 1.1rem;
     }
 
     #main-text h1 {
