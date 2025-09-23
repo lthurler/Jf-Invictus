@@ -369,9 +369,13 @@ header {
 #title-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    /* gap: .5rem; */
+    gap: .5rem;
+}
+
+#title-container p {
+    font-size: .5rem;    
 }
 
 #main-text h1 {
