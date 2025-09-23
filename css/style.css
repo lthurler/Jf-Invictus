@@ -374,9 +374,11 @@ header {
     gap: .5rem;
 }
 
-#title-container p {
-    font-size: .5rem;    
-}
+/* #title-container p {
+    font-family: 'poppins', sans-serif;
+    font-size: .5rem;
+    font-weight: 400;    
+} */
 
 #main-text h1 {
     color: #FFD700;
