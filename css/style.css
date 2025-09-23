@@ -439,7 +439,7 @@ header {
 #main-link div {
     border: 1px solid #92429F;
     border-radius: 20px;
-    padding: 2.5rem 1rem;
+    padding: 1rem .5rem;
     text-align: center;
     display: flex;
     justify-content: center;
