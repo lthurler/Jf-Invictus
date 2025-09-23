@@ -347,7 +347,8 @@ header {
 }
 
 #main-box {
-    display: flex;    
+    display: flex;
+    flex-direction: column;    
     gap: 1rem;
     justify-content: center;
     align-items: center;
