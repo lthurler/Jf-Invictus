@@ -355,6 +355,7 @@ header {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     padding: 1.5rem;
     border-radius: 20px;
+    padding-bottom: 1rem;
 }
 
 #main-text {
@@ -371,8 +372,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
-    gap: .5rem;
+    align-items: center;    
 }
 
 /* #title-container p {
