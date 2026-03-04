@@ -105,9 +105,9 @@ const sr = ScrollReveal ({
 sr.reveal(`#main-box`, { opacity: 0 })
 sr.reveal(`.contact__content`)
 sr.reveal(`#sobre-container, #social-container, #cabo-card, #legalizacao, #rgi, #certidao, #imposto, #heranca, #usucapiao`, {delay: 600, origin:'bottom', interval: 500})
-sr.reveal(`#main-text, #footer-logo img, #footer-content, #invictos-img`, { origin: 'left' })
+sr.reveal(`#main-text, #footer-logo img, #footer-content, .invictos-img`, { origin: 'left' })
 // sr.reveal(`#main-text, #footer-logo img, #footer-content, #invictos-img`, {origin:'top'})
-sr.reveal(`#main-img, #footer-menu, #main-link, #invictus-txt, #footer-map`, {origin:'right'})
+sr.reveal(`#main-img, #footer-menu, #main-link, .invictus-txt, #footer-map`, {origin:'right'})
 sr.reveal(`.qualification__content, .services__card`, { interval: 100 })
 
 // , #legalizacao-txt, #rgi-img, #certidao-txt , #legalizacao-img, #rgi-txt, #certidao-img #copyright,
