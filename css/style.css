@@ -1480,6 +1480,12 @@ footer {
     #title-container h1 {
         font-size: 1.3rem;
         font-weight: 900;
+        padding-bottom: .5rem;
+    }
+
+    #title-container h2 {
+        font-size: 1rem;
+        font-weight: 900;
     }
 
     /* #main-apresentacao {
@@ -1598,19 +1604,34 @@ footer {
         background-size: cover;       
     }
 
-    #rgi-txt, #obra-txt, #imposto-txt {
-        order: 1;        
-    }
+        #certidao-img,
+        #heranca-img,
+        #rgi-img,
+        #legalizacao-img,
+        #usucapiao-img,
+        #imposto-img {
+            height: 270px;
+            order: 1;
+        }
+    
+        #certidao-txt,
+        #heranca-txt,
+        #rgi-txt,
+        #legalizacao-txt,
+        #usucapiao-txt,
+        #imposto-txt {
+            order: 2;
+        }
 
     .servico p:last-child {
         padding-bottom: 1rem;
     }
 
-    #rgi-img, #obra-img , #imposto-img{
+    /* #rgi-img, #obra-img , #imposto-img{
         order: 2;        
-    }
+    } */
 
-    #certidao-img, #habite-img, #rgi-img, #legalizacao-img, #obra-img, #imposto-img {
+    #certidao-img, #heranca-img, #rgi-img, #legalizacao-img, #usucapiao-img, #imposto-img {
         height: 270px;
     }
 
@@ -1618,6 +1639,7 @@ footer {
     #sobre,
     #contato {
         padding-top: 2rem;
+        padding-bottom: 1rem;
     }    
 
     #sobre h2 {
@@ -1670,7 +1692,29 @@ footer {
         justify-content: flex-start;
         align-items: center;
         position: relative;
-    }    
+        width: 100%;
+        height: auto;
+    }
+    
+    .sobre-invictus {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .invictus-txt {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0 1rem 4rem 1rem;
+    }
+
+    .card {
+        width: 350px;
+    }
 
     #card-sobre-container .card p {
         display: inline;
@@ -2076,30 +2120,41 @@ footer {
             background-size: cover;
         }
     
-        #rgi-txt,
+        /* #rgi-txt,
         #obra-txt,
         #imposto-txt {
             order: 1;
-        }
+        } */
     
         .servico p:last-child {
             padding-bottom: 1rem;
         }
     
-        #rgi-img,
+        /* #rgi-img,
         #obra-img,
         #imposto-img {
             order: 2;
-        }
+        } */
     
         #certidao-img,
-        #habite-img,
+        #heranca-img,
         #rgi-img,
         #legalizacao-img,
-        #obra-img,
+        #usucapiao-img,
         #imposto-img {
             height: 270px;
+            order: 1;
         }
+
+        #certidao-txt,
+        #heranca-txt,
+        #rgi-txt,
+        #legalizacao-txt,
+        #usucapiao-txt,
+        #imposto-txt {
+            order: 2;
+        }
+
     
         #servicos,
         #sobre,
@@ -2111,21 +2166,22 @@ footer {
             padding-top: 1rem;
         }
     
-        #sobre-invictus {
+        .sobre-invictus {
             flex-direction: column;
-            gap: 1rem;
+            gap: 2rem;
             padding: 3rem 1rem;
         }
     
-        #invictus-txt {
+        .invictus-txt {
             width: 100%;
         }
     
-        #invictus-txt h2 {
+        .invictus-txt h3 {
             color: #FFD700;
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             font-weight: bold;
             font-family: "SUSE", sans-serif;
+            align-self: center;
         }
     
         p {
