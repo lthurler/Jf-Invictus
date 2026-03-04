@@ -488,7 +488,8 @@ header {
     color: #FFFF;
     /* min-height: 100vh; */
     width: 100%;
-    max-width: 100vw;     
+    max-width: 100vw;
+    padding-bottom: 10rem;     
 }
 
 /* Services Section */
@@ -676,13 +677,13 @@ header {
     border-radius: 10px;
 }
 
-#obra-img {
-    background: center / cover no-repeat url("../img/obras2.jpg");
+#usucapiao-img {
+    background: center / cover no-repeat url("../img/usucapiao.jpg");
     border-radius: 10px;
 }
 
-#habite-img {
-    background: center / cover no-repeat url("../img/habite-se.webp");
+#heranca-img {
+    background: center / cover no-repeat url("../img/heranca.png");
     border-radius: 10px;
 }
 
@@ -706,7 +707,7 @@ header {
 }
 
 .invictus-txt {    
-    width: 700px;
+    width: 800px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -715,7 +716,7 @@ header {
 
 .invictus-txt h3 {
     color: #FFD700;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: bold;
     font-family: "SUSE", sans-serif;
 }
