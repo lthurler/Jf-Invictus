@@ -1075,7 +1075,7 @@ footer {
     flex-direction: column;
     /* background-color: #441F57; */
     /* background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(104, 48, 133, 1) 100%); */
-    background: #92429F;
+    background: rgba(104, 48, 133, 1);
     color: #ffff;
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
@@ -1652,23 +1652,24 @@ footer {
         padding: 3rem 1rem;
     }
 
-    #invictus-txt {
-        width: 100%;        
+    .invictus-txt {
+        width: 100%;
+        padding-bottom: 4rem;        
     }
 
-    #invictus-txt h2 {
+    .invictus-txt h3 {
         color: #FFD700;
         font-size: 1.3rem;
         font-weight: bold;
         font-family: "SUSE", sans-serif;
     }    
 
-    #invictus-txt p span {
+    .invictus-txt p span {
         font-size: 1rem;
         color: #FFD700;
     }
 
-    #invictus-txt span {
+    .invictus-txt span {
         font-family: 'poppins', sans-serif;
         font-size: 1rem;
     }
