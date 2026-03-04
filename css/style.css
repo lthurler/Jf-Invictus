@@ -834,7 +834,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(180deg, rgba(104, 48, 133, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(180deg, rgba(104, 48, 133, 1) 0%, rgba(255, 255, 255, 1) 100%);
     padding: 6rem 0 3rem 0;
 }
 
@@ -864,14 +864,14 @@ header {
     border: 1px solid #ffff;
     border-radius: 10px;
     align-self: center;
-    background-color: transparent;
+    background-color: #92429F;
     padding: .3rem;
 }
 
 .contact__button:hover {
     background-color: #ffff;
     color: #92429F;
-    border: 1px solid #ffff;
+    border: 1px solid #92429F;
 }
 
 .contact__button i {
@@ -1074,7 +1074,8 @@ footer {
     display: flex;
     flex-direction: column;
     /* background-color: #441F57; */
-    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(104, 48, 133, 1) 100%);
+    /* background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(104, 48, 133, 1) 100%); */
+    background: #92429F;
     color: #ffff;
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
@@ -1085,8 +1086,9 @@ footer {
 
 #footer-container {
     display: flex;
-    /* flex-direction: column; */
-    justify-content: space-around;
+    flex-direction: column; 
+    /* justify-content: space-around; */
+    justify-content: center;
     align-items: center;
     gap: 1rem;
     padding: 2rem;
@@ -1140,7 +1142,7 @@ footer {
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
-    color: #FFD700;
+    color: #ffd700;
 }
 
 #footer-telefone {
@@ -1218,7 +1220,7 @@ footer {
 #footer-nav ul {
     display: flex;
     justify-content: center;
-    gap: 2.7rem;
+    gap: 2.7rem;    
 }
 
 #copyright {
