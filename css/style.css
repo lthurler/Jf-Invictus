@@ -1550,12 +1550,12 @@ footer {
         padding: 0;
     }
 
-    #main-link {        
-        /* grid-template-columns: repeat(2, 1fr);
+        /*#main-link {        
+         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
-        width: 100%; */
+        width: 100%; 
         display: none;
-    }
+    }*/
 
     #main-link div {
         display: flex;
