@@ -711,7 +711,7 @@ header {
     width: 800px;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1rem;    
     /* padding: 0 2rem 4rem 2rem; */
 }
 
@@ -726,6 +726,7 @@ header {
     font-size: 1rem;
     font-family: 'poppins', sans-serif;
     color: #ffff;
+    text-align: justify;
 }
 
 .invictus-txt p span {    
