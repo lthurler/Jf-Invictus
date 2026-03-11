@@ -110,7 +110,7 @@ ul {
     flex-direction: column;
     /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
             center / cover no-repeat url("../img/pexels-pavel-danilyuk-8112201.jpg"); */
-    background: center / cover no-repeat url("../img/cara3.jpg");
+    background: center / contain no-repeat url("../img/cara5.png");
     background-attachment: fixed;
     width: 100%;
     height: 100%;
@@ -1395,6 +1395,7 @@ footer {
     #hero {
         /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
             center / cover no-repeat url("../img/hero-cel.webp"); */
+        background: center / cover no-repeat url("../img/cara5.png");
         background-attachment: fixed;
         width: 100%;
         height: 100%;
