@@ -714,9 +714,10 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 6rem;
+    gap: 3rem;
     padding-top: 3rem;
     padding-bottom: 10rem;
+    flex-wrap: wrap;
 }
 
 #sobre h2 {
