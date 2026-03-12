@@ -110,7 +110,7 @@ ul {
     flex-direction: column;
     /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
             center / cover no-repeat url("../img/pexels-pavel-danilyuk-8112201.jpg"); */
-    background: center / contain no-repeat url("../img/cara5.png");
+    background: center / contain no-repeat url("../img/cara5.webp");
     background-attachment: fixed;
     width: 100%;
     height: 100%;
@@ -448,7 +448,8 @@ header {
     /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
     justify-content: center;
     align-items: flex-start;
-    gap: 1.3rem;
+    row-gap: 3rem;
+    column-gap: 6rem;
     width: 80%;
     height: 100%;
     padding-top: 1rem;
@@ -679,12 +680,12 @@ header {
 }
 
 #legalizacao-img {
-    background: center / cover no-repeat url("../img/man-5806013_1280.jpg");
+    background: center / cover no-repeat url("../img/man-5806013_1280.webp");
     border-radius: 10px;        
 }
 
 #rgi-img {
-    background: center / cover no-repeat url("../img/invictos.jpg");
+    background: center / cover no-repeat url("../img/invictos.webp");
     border-radius: 10px;
 }
 
@@ -694,17 +695,17 @@ header {
 }
 
 #usucapiao-img {
-    background: center / cover no-repeat url("../img/usucapiao.jpg");
+    background: center / cover no-repeat url("../img/usucapiao.webp");
     border-radius: 10px;
 }
 
 #heranca-img {
-    background: center / cover no-repeat url("../img/heranca.png");
+    background: center / cover no-repeat url("../img/heranca.webp");
     border-radius: 10px;
 }
 
 #imposto-img {
-    background: center / cover no-repeat url("../img/impostos.jpg");
+    background: center / cover no-repeat url("../img/impostos.webp");
     border-radius: 10px;
 }
 
@@ -1546,7 +1547,15 @@ footer {
         font-size: .9rem;
     }
 
+    #link {
+        padding: 10rem 0;
+    }
+
     #main-link a {        
+        padding: 0;
+    }
+
+    #link-container {
         padding: 0;
     }
 
@@ -1557,12 +1566,12 @@ footer {
         display: none;
     }*/
 
-    #main-link div {
+    /* #main-link div {
         display: flex;
         align-items: center;
         justify-content: center;
         padding: .5rem .7rem;        
-    }
+    } */
 
     /* #main-link {
         display: grid;
@@ -1585,6 +1594,8 @@ footer {
         font-size: .8rem;
         padding: 0;
     }
+
+    
 
     /* #main-p {
         font-size: 1rem;
